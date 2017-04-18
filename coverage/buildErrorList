@@ -1,0 +1,23 @@
+Changes from Build.xml 
+date 4/18/17
+=====================================
+
+Changed code :
+-----------
+IglooScore1 :
+-----------
+line 39:  should be score1 greater than score2(score1>score2) because it is taking the larger number instead of the smaller one 
+eventually subtract.
+
+IglooScore2 :
+-----------
+line 44: s2 changed to score3 because score2 was less than score3 and we were finding the largest number inputed.
+line 49+50: are for if all numbers are equal instead of putting in a value we should just have the two scores of any combination 
+placed in instead.
+
+notes:
+--------------
+
+ Line 59 in IglooScore2 cannot be reachd because the if statment will never have all 4 branches occur.
+line 59: if (args==null || args.length != 3) 
+to correct it can set it to args.length == 0 or just take out or because it should always have 3 nothing more or less.
